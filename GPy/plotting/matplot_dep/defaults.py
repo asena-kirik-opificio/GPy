@@ -44,9 +44,9 @@ it gives back an empty default, when defaults are not defined.
 
 # Data plots:
 data_1d = dict(lw=1.5, marker="x", color="k")
-data_2d = dict(
-    s=35, edgecolors="none", linewidth=0.0, cmap=pyplot.get_cmap("hot"), alpha=0.5
-)
+# data_2d = dict(
+#     s=35, edgecolors="none", linewidth=0.0, cmap=pyplot.get_cmap("hot"), alpha=0.5
+# )
 inducing_1d = dict(lw=0, s=500, color=Tango.colorsHex["darkRed"])
 inducing_2d = dict(
     s=17, edgecolor="k", linewidth=0.4, color="white", alpha=0.5, marker="^"
